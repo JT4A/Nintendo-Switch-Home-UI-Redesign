@@ -1,0 +1,159 @@
+body {
+  min-width: 1280px;
+  min-height: 720px;
+  overflow: hidden;
+  margin: 0;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.background {
+  z-index: -1;
+  position: absolute;
+  height: 110vh;
+  width: 105vw;
+  background-image: url(img/cover/botw.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(40%) blur(8px);
+}
+
+.sidebar {
+  height: 100vh;
+  width: 5vw;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: #2f2d2e;
+  overflow-x: hidden;
+  padding-top: 3vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.sidebar div {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  height: 10vh;
+  text-align: center;
+}
+
+.icons {
+  position: relative;
+  height: 50%;
+  width: 50%;
+  border-radius: 100%;
+  background-color: #3d3d3d;
+  background-position: center;
+  overflow: visible;
+  border: solid #3d3d3d 1vh;
+}
+
+.topbar {
+  height: 10vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+.topbar-contents {
+  padding: 2.5%;
+  color: #cbcbcb;
+  text-align: right;
+  z-index: 1;
+  font-size: 3vh;
+}
+
+.battery {
+  vertical-align: -2.5vh;
+  width: 4vw;
+}
+
+.wifi {
+  vertical-align: -0.8vh;
+  width: 2vw;
+  /* padding-left: 0.5vw; */
+  padding-right: 0.5vw;
+}
+
+.title {
+  height: 15vh !important;
+  padding: 5vh;
+  color: #cbcbcb;
+  text-align: center;
+  z-index: 3;
+}
+
+.title-contents {
+  font-size: 2vh;
+}
+
+.check {
+  width: 1vw;
+  vertical-align: -0.3vh;
+}
+
+#logo {
+  /* height: 25%; */
+  width: 20%;
+  height: 25vh;
+  /* width: 20vw; */
+  z-index: 3;
+}
+
+.carousel {
+  padding-top: 5vh;
+  padding-left: 5vw;
+  height: 50vh;
+  width: 200vw;
+}
+
+.carousel-cards {
+  height: 50vh;
+  width: 200vw;
+}
+
+.carousel-cards li {
+  list-style: none;
+  display: inline;
+}
+.carousel-cards li img {
+  padding: 3vh;
+
+  height: 50vh;
+  width: 18vw;
+  border-radius: 3vw;
+}
+
+.icons:hover {
+  border-color: #0cb2c2;
+  border-width: 1vh;
+}
+
+.card:hover {
+  height: 51vh;
+  width: 19vw;
+  border-color: #0cb2c2;
+  border-width: 1vh;
+}
+
+.context-buttons {
+  font-size: 3vh;
+  padding-top: 7%;
+  padding-right: 3vw;
+  text-align: right;
+  color: #cbbcbc;
+}
+
+.button-promts {
+  padding-left: 1vh;
+  color: #575e64;
+  border-radius: 100%;
+  background-color: #cbcbcb;
+  background-position: center;
+  overflow: visible;
+}

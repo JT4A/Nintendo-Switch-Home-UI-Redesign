@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="scripts.js"></script>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="background" id="bg"></div>
+      <div class="sidebar">
+        <div>
+          <img
+            class="icons user"
+            src="img/icons/Nintendo_Switch_icon_-_User.svg"
+          />
+        </div>
+        <div>
+          <img class="icons notification" src="img/icons/Notification.svg" />
+        </div>
+        <div>
+          <img class="icons eshop" src="img/icons/eShop.svg" />
+        </div>
+        <div>
+          <img
+            class="icons album"
+            src="img/icons/Nintendo_Switch_-_Album.svg"
+          />
+        </div>
+        <div>
+          <img
+            class="icons controller"
+            src="img/icons/Nintendo_Switch_icon_-_Controller.svg"
+          />
+        </div>
+        <div>
+          <img class="icons settings" src="img/icons/Settings.svg" />
+        </div>
+        <div>
+          <img class="icons power" src="img/icons/Power.svg" />
+        </div>
+      </div>
+
+      <div class="topbar">
+        <div class="topbar-contents">
+          <b id="clock"
+            >8:33pm <img class="wifi" src="img/icons/wifi.svg"/><b id="battery"
+              >0%</b
+            ><img class="battery" src="img/icons/Battery.svg"
+          /></b>
+        </div>
+      </div>
+      <div class="title">
+        <img id="logo" src="img/logo/botw.png" />
+        <div class="title-contents">
+          <b id="hours">87 Hours Played </b>· <b id="year">2017</b> ·
+          <b id="backed">Backed Up </b>
+          <img class="check" src="img/icons/Check.svg" />
+        </div>
+      </div>
+      <div class="carousel">
+        <ul class="carousel-cards">
+          <li>
+            <img
+              class="card"
+              id="botw"
+              src="img/cover/botw.jpg"
+              onclick="setGame('botw')"
+            />
+          </li>
+          <li>
+            <img
+              class="card"
+              id="ssbu"
+              src="img/cover/ssbu.jpg"
+              onclick="setGame('ssbu')"
+            />
+          </li>
+          <li>
+            <img
+              class="card"
+              id="ch"
+              src="img/cover/ch.jpg"
+              onclick="setGame('ch')"
+            />
+          </li>
+          <li>
+            <img
+              class="card"
+              id="hld"
+              src="img/cover/hld.jpg"
+              onclick="setGame('hld')"
+            />
+          </li>
+          <li>
+            <img
+              class="card"
+              id="gris"
+              src="img/cover/gris.jpg"
+              onclick="setGame('gris')"
+            />
+          </li>
+        </ul>
+      </div>
+      <div class="context-buttons">
+        <b class="button-promts"> A </b
+        ><b>
+          &ensp;Continue&emsp;
+          <b class="button-promts"> X </b>
+          <b
+            >&ensp;Close Software&emsp;
+            <b class="button-promts"> Y </b>
+            <b
+              >&ensp;Change User&emsp;
+              <b class="button-promts"> + </b>
+              <b>&ensp;Options </b>
+            </b>
+          </b>
+        </b>
+      </div>
+    </div>
+  </body>
+</html>
